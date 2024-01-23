@@ -3,13 +3,20 @@ import Header from './Header'
 
 const BaseLayout = ({children}) => {
     const containerStyle = {
-        backgroundColor: '#010C80', // Set the desired background color
+        backgroundColor: 'white', // Set the desired background color
+      };
+      const innerDivStyle = {
+        height: '60px', // Set the height to 60 pixels
+        // Add any other styles as needed
       };
   return (
     <>
         <div style={containerStyle}>
         <Header />
-        <br /> <br />
+        
+            <div style={innerDivStyle}>
+
+            </div>
 
             {children}
         </div>

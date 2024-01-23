@@ -28,7 +28,6 @@ const Header = () => {
   return (
     <>
       <Navbar fixed="top" expand={expanded} className="custom-navbar">
-        {console.log(expanded)}
         <Container className="d-flex justify-space-between">
           <Navbar.Brand href="/">
             <img
