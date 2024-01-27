@@ -1,5 +1,11 @@
+/* 
+dark blue = rgb(1,12,128)
+light blue = rgb(77,204,223)
+
+
+*/
 .custom-navbar{
-    background-color: rgb(1,12,128);
+    background-color: rgb(77,204,223);
     height: 60px;
     padding: 0px;
     margin-bottom: 0px;
@@ -10,7 +16,7 @@
     color: white !important;
 }
 .nav-link:hover{
-    color: rgb(119,212,252) !important;
+    color: rgb(1,12,128) !important;
 }
 button.navbar-toggler.collapsed{
     color: white !important;
@@ -19,3 +25,19 @@ button.navbar-toggler.collapsed{
 img{
     height: 40px !important;
 }
+.title{
+    color: white;
+}
+@media (max-width: 450px) {
+    .navLinks{
+        flex-direction: column; 
+    }
+    .navbar-nav{
+        flex-direction: column!important;
+        background-color: rgb(77,204,223);
+        padding-top: 50px;
+    }
+    .container{
+        padding-right: 0px;
+    }
+  }
